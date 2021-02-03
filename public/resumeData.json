@@ -1,0 +1,97 @@
+{
+  "main": {
+    "name": "Radha Rukmini",
+    "occupation": "Developer",
+    "description": "Looking for Full-time position in Front-End and Full Stack Developement.",
+    "image": "rr.jpeg",
+    "bio": "My name is Radha, I'm a Full Stack  Developer.",
+    "contactmessage": "Get in touch with me to receive further details.",
+    "email": "y.radhareddy12@gmail.com",
+    "address": {
+      "street":"Rue des Blains",
+      "city": "Bagneux",
+      "state": "Ile de france",
+      "zip": "92220",
+      "country":"France"
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/radha-rukmini-yaramala-25a7a1172/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/radharukminiY",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+
+    "education": [
+      {
+        "school": "ISEP",
+        "degree": "Master's Degree, Software Engineering",
+        "graduated": "November 2020",
+        "description": "Post-Graduated with Distinction"
+      }
+    ],
+    "work": [
+      {
+        "company": "SZ Global Corporation",
+        "title": "Full Stack Developer",
+        "years": "May 2020 - October 2020",
+        "description": ""
+      },
+      {
+        "company": "BIOS Technologies",
+        "title": "Data Verfication Officer",
+        "years": "Nov 2016 - Jan 2018",
+        "description": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "100%"
+      },
+        {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "Java",
+        "level": "90%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+
+      {
+        "name": "Mysql",
+        "level": "80%"
+      }
+    ]
+  },
+  "projects": {
+    "projects": [
+      {
+          "pname": "Hotel-Booking",
+           "text":"Developed a hotel-booking app based on ReactJs. In this application user can book a hotel on specific search like based on city or hotel names, user can view information about hotel,fetch the details from api's and basic authentication with GitHub.",
+           "link":"https://hotel-booking-react1.herokuapp.com/"
+        },
+
+        {
+          "pname": "News-Forum",
+          "text":"Developed a basic News-forum app based redux and applied some testing on it.Fetch the data from Json file.",
+          "link":"https://news-forum-redux.herokuapp.com/"
+        }
+
+    ]
+
+  }
+}

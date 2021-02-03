@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 
 class App extends Component {
 
@@ -44,7 +44,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Projects data={this.state.resumeData.projects}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
