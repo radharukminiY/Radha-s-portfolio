@@ -66,7 +66,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #fff;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -264,11 +264,16 @@ ul#nav li.current a { color: #F06000; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid #000000;
 }
+
+#resume .small{
+  color: #00000;
+}
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #000000;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -413,10 +418,10 @@ ul#nav li.current a { color: #F06000; }
 }  */
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. Projects Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#projects {
    background: #161415 url(../images/bg2.jpeg);
     background-size: cover !important;
  	-webkit-background-size: cover !important;
@@ -427,7 +432,7 @@ ul#nav li.current a { color: #F06000; }
     overflow: hidden;
  }
 }
-#portfolio h4 {
+#projects h4 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -435,22 +440,22 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
    color: #95A3A3;
 }
-#portfolio .text-container {
+#projects .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#portfolio h1 {
+#projects h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#portfolio h2 { color:#fff; }
-#portfolio h5 { color:#fff; }
-#portfolio cite { color:#fff; }
-#portfolio h1 span { display: none; }
-#portfolio .header-col { padding-top: 9px; }
-#portfolio.header-col h1:before {
+#projects h2 { color:#fff; }
+#projects h5 { color:#fff; }
+#projects cite { color:#fff; }
+#projects h1 span { display: none; }
+#projects .header-col { padding-top: 9px; }
+#projects.header-col h1:before {
   font-family: 'FontAwesome';
   content: "\f10d";
   padding-right: 10px;
