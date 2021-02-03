@@ -14,8 +14,7 @@
       "zip": "92220",
       "country":"France"
     },
-    "website": "",
-    "resumedownload": "",
+    "website": "https://rr-portfilio.herokuapp.com/",
     "social": [
       {
         "name": "linkedin",
