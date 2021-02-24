@@ -79,17 +79,15 @@
   "projects": {
     "projects": [
       {
-          "pname": "Hotel-Booking",
-           "text":"Developed a hotel-booking app based on ReactJs. In this application user can book a hotel on specific search like based on city or hotel names, user can view information about hotel,fetch the details from api's and basic authentication with GitHub.",
-           "link":"https://hotel-booking-react1.herokuapp.com/"
+          "pname": "Restaurent-Booking",
+           "text":"Developed a Restaurent/Table-booking app based on ReactJs. In this application user can book a table on specific search like based on city or Restaurent names, user can view information about hotel,fetch the details from api's.",
+           "link":"https://book-restro.herokuapp.com/"
         },
-
         {
-          "pname": "News-Forum",
-          "text":"Developed a basic News-forum app based redux and applied some testing on it.Fetch the data from Json file.",
-          "link":"https://news-forum-redux.herokuapp.com/"
+          "pname": "Movies",
+          "text":"Developed a basic Movies-database app based react-redux and fetch the data from Imdb database.",
+          "link":"https://moviesdb-redux.herokuapp.com/#/"
         }
-
     ]
 
   }
