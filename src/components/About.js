@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Resume from './Resume.pdf';
 
 class About extends Component {
   render() {
@@ -13,6 +14,7 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var country = this.props.data.address.country;
       var email = this.props.data.email;
+      var resumeDownload = this.props.data.resumedownload;
 
     }
 
@@ -20,7 +22,7 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Pic" />
+            <img className="profile-pic"  src={"images/rr.jpeg"} alt="Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me
@@ -40,6 +42,11 @@ class About extends Component {
                      <span>{email}</span>
 					   </p>
                </div>
+               <div>
+            <a href={Resume} download>
+                  <button value='Download'>Download Resume</button>
+              </a>
+            </div>
             </div>
          </div>
       </div>
