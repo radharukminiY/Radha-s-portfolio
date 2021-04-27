@@ -86,7 +86,7 @@
         {
           "pname": "Movies",
           "text":"Developed a basic Movies-database app based react-redux and fetch the data from Imdb database.",
-          "link":"https://moviesdb-redux.herokuapp.com/#/"
+          "link":"https://movies-in.herokuapp.com/#/"
         }
     ]
 
