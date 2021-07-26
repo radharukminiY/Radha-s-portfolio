@@ -78,11 +78,6 @@
   },
   "projects": {
     "projects": [
-      {
-          "pname": "Hotel-Booking",
-           "text":"Developed a hotel booking app based on ReactJs. In this application user can book a room on specific search like based on city or hotel names, user can view information about hotel,fetch the details from api's.",
-           "link":"https://hotel-bookapp-rr.herokuapp.com/"
-        },
         {
           "pname": "Movies",
           "text":"Developed a basic Movies-database app based react-redux and fetch the data from Imdb database.",
